@@ -1,0 +1,47 @@
+Exercise 1- The dream case
+
+- used DH box to log copy of my data results, this was very easy and had almost no trouble, logged all results and uploaded to github
+
+
+Exercise 2- Wget
+
+- used mkdir war-diary, to make a directory for the data archives, pwd is used to check and make sure the file is there, it appears that the directory has be successfully made 
+
+- impute nano urls.py to get my new python file, new file opened
+
+- in file pasted in:
+
+urls = ''; f=open('urls.txt','w') for x in range(8029, 8110): urls = 'http://data2.collectionscanada.ca/e/e061/e00151%d.jpg\n' % (x) f.write(urls) f.close
+
+- ran script 
+
+- everything appears the be running correctly 
+
+- save and exit nano, "ls" is sued to make use the fine was downloaded correctly 
+
+- this exercise harder then last but i think that i completed it correctly!! 
+
+Exercise 3- TEI
+
+- downloaded Tei-hist309, had a lil trouble finding this at first but was quickly able to find it and downloaded
+
+- followed link to the recovered Histories Website- at first I was questioning if this provider was trustworthy, at first glance the website seemed to lack information, however i quickly realized that when u searched in the site documents would come up, now confidently knowing that the website seems trustworthy to use as a historians
+
+- to transcribe my text piece i used atom at first, but when typing encoding my transcription i found that when i was typing in my sentences the line would continusly type and not follow on to the next line, i switched programs and used Sublime text, and this problem was resolved 
+
+- used <persName key="Last, First" from="YYYY" to="YYYY" role="Occupation" ref="http://www.website.com/webpage.html"> </persName>
+
+to transcribe a person
+
+<placeName key="Sheffield, United Kingdom" ref="http://tools.wmflabs.org/geohack/geohack.php?pagename=Sheffield&params=53_23_01_N_1_28_01_W_type:city_region:GB"> </placeName>
+
+for a place 
+
+<interp key="reason" n="citation" cert="high" ref="http://www.website.com/webpage.html"> </interp>
+
+for an claims
+
+- at first i saved my file to my documents, and was not able to open it, but re read the the Exercise and realized i had to save it to the tei folder 
+was able to see the first part transcibed however had a little touble with the second part, took piece by piece out and could not find the error
+
+
