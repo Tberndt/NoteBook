@@ -1,0 +1,27 @@
+ Saterday May 26th
+Exercise 4 
+
+APIs- Application Programming Interface, using the Canadian Discovery Portal
+
+&fmt=json - add at the end of URL so data is better formatted for us to work with
+
+sudo apt-get install jq -y - jp previously installed in last exercise, put into command line
+
+mkdir m2e4 and cd m2e4 -used to make a new directory
+
+pwd followed by touch canadiana.sh - this is used to make a new file for the program ( touch ) is making an empty file and sh is used to  indicate the file name
+
+the new file opened and i copy and pasted the large text paragraph that was in the workbook, in this text i shorted the search to a narrower time frame
+
+chmod 755 canadiana.sh - is used to let our DH box know that this is a ok program./canadiana.sh, this allows us to run the actual program
+
+-> i now have created a new file, and have successfully opened my new file made, i have taken data from Canadian Discovery Portal
+
+"sudo apt-get install jq -y"- u put this in the command line and imput my password for the program to download, succcessful
+mkdir m2e4 used to make new directory and $ cd m2e4 to change the directory over 
+nano canadiana.sh- opened an epty file and i copy and pasted the text that was provied into the empty document, i chnaged the dates in the doc so the span that i was seaching would be smaller
+- this is when i ran into issues, after i saved the doc and put chmod 755 canadiana.sh in command line and check to see if it was their the file ran the program  "./canadiana.sh"
+while this said it would take a few moments i had the files running for more then 30 min, i figured i did something wrong and re did steps 5-11 again
+the issue still seemed to be happening, i re tried agin 
+this time it seemed that after a few min of running the files my VPN would disconnect and the process would be hulted and have to be re done again :(
+still not sure what i was doing worng and was not able to complete the rest 
