@@ -1,0 +1,10 @@
+mod-5 Mining Twitter
+
+set up twitter was easy
+
+- i was able to follow steps 1-10 with no problems, however the first step that i needed the command line for was to impute: sudo pip install https://github.com/DocNow/twarc/archive/v1.2.0.tar.gz 
+in the command like and keeps coming up with a error
+
+" command not found"- im not sure why this is happening, 
+i tried to do Sudo update to see if this would help, but after when i put in the same command i still got the same error 
+:(, i will leave this one for now and try to work on it at a later time 
