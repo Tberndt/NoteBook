@@ -1,0 +1,21 @@
+Exercise 6 - using Tesseract to turn an image into text
+
+- to start at converting images i put mkdir ocr-test in command line, to make a new directory, successfully done 
+
+- cd ocr-test- this command worked good to and i am able to continue onto the next step 
+
+-sudo apt-get install tesseract-ocr- asked for my password and downloaded well 
+
+sudo apt-get install imagemagick - error????
+
+convert -density 300 ~/war-diary/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff
+
+- imputing this in came back with a error saying that it did not exist 
+
+- i re did steps 1-5, 3 times to make sure i impute everything in right
+
+- i read the zulip and others seemed to have this problem, i then went back to Exercise 2 to make sure that i completed it properly 
+
+- i re did Exercise 2 a few times, but was still having this trouble 
+
+- i keep getting this same error and  followed tips from classmates but cannot seem to figure out what time doing wrong 
