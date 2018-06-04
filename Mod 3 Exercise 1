@@ -1,0 +1,47 @@
+ Exercise 1: Regular Extensions 
+
+-Tried opening RegeXr, have never used before and looks very complicated
+- curlhttp://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt
+used this in the command line downloaded good, used nano to make sure its there
+-	deleted the un needed parts in the text
+-	took the fine and opened it in sublime text 
+in sublime text
+•	copied the names in the text and up loaded to DH box 
+•	re opened the text file from step one that I edited in Sublime text 
+•	grep '\bto\b' texas.txt – this is used all the “to” in the text, every line is edited with the line to in it with this command we give 
+•	copied and pasted the work from sublime text, little difficulty using this program
+•	confused with step 3???
+Placed in the equation $ sed -r -i.bak 's/(.+\bto\b.+)/~\1/g' texas.txt
+•	this put a ~ in front of every line of text 
+•	used nano to view text 
+•	its worked!!!!
+Step two 
+•	trying to find all the lines that have ~ in the text that I just imput 
+I impute    $ grep '~' texas.txt > index.txt
+•	And use nano to make sure its their 
+•	No issues very straight forward
+Step 3
+•	Now trying to remove the ~
+I use the DH box and put in command sed -r -i.bak 's/(,)( [0-9]{4})(.+)/\2/g' index.txt
+•	Error, 
+•	Opsie I put the slash the wrong way, I re impute and uses nano to view it 
+•	The text comes up with the ~???
+•	Ohhh, this step isent to remove the ~, my text is okay 
+Step 4 
+•	Now I am removing ~
+In Dh box I write in command sed -r -i.bak 's/~//g' index.txt
+•	Error, I re do command 
+•	I accidently placed a space, I use nano to view the text 
+•	The ~ are gone!!!
+Step 5
+•	In DH box I write  $ sed -r -i.bak 's/(\b to \b)/,/g' index.txt
+•	I use nano to view the format of text 
+•	It looks okay, 
+Step 6 
+I put the file I just made in Regex, and place in .+,.+,.+,
+•	I use this equation to eliminate all the extra commas ( I only want 2)
+•	The ones that have more then two are highlighted blue. 
+I uses cp index.txt cleaned-correspondence.csv when I am finished taking out the commas to save my work 
+- open my file I just made and its not formatted correctly, sender and receiver are in the same column and the dates are in the sender and date column 
+•	I must go back and re do step 5?
+•	I found my error!!! The command in step 5 was incorrect, I re do setep 6 in Regex, I think my file came out ok!!
